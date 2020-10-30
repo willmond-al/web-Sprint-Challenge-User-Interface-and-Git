@@ -236,6 +236,10 @@ footer nav a {
 
 /* about page css */
 
+*{
+    /* border: 1px solid grey; */
+}
+
 .skyline{
     background-image: url(/img/jumbo-about.png);
     width:90%;
@@ -246,9 +250,14 @@ footer nav a {
     
 }
 
+.topText{
+    border-bottom: 1px dashed grey;
+    padding-bottom: 2%;
+}
+
 
 .mainContent div{
-    width:50%;
+    width:46%;
     margin: 2% auto;
 }
 
@@ -258,5 +267,22 @@ footer nav a {
     
 }
 
+.mainContent div{
+    border-bottom: 1px dashed grey;
+    margin: 4% 2%;
+}
+
+.learnMore{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10%;
+
+}
+
+.cta{
+    margin:0 2%;
+    margin-bottom: 2%;
+
+}
 
 
