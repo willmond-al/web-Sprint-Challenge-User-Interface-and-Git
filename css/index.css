@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: ;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -28,6 +28,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+
+
 body {
 	line-height: 1;
 }
@@ -49,6 +52,7 @@ table {
 
 * {
     box-sizing: border-box;
+    /* border: 1px solid grey; */
 }
 
 html, body {
@@ -64,6 +68,49 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+.black{
+    height: 5vh;
+    width: 100%;
+    background: black;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 7vh;
+    margin:0 auto;
+    margin-top: 2%;
+
+}
+
+.logo{
+    width: 20%;
+    background-image: url(/img/lambda-black.png);
+    background-repeat: no-repeat;
+}
+
+.navBar nav{
+    width:80%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3%;
+
+}
+
+.navBar nav a{
+    color: black;
+    text-decoration: none;
+}
+
+.roadImage{
+    height: 18vh;
+    background-image: url(/img/jumbo.jpg);
+    width:90%;
+    margin: 2% auto;
+
 }
 
 .container {
@@ -104,12 +151,54 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: blue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* box colors */
+
+.middle-content .boxes .one{
+    background: teal;
+}
+
+.middle-content .boxes .two{
+    background: gold;
+}
+
+.middle-content .boxes .three{
+    background: cadetblue;
+}
+
+.middle-content .boxes .four{
+    background: coral;
+}
+
+.middle-content .boxes .five{
+    background: crimson;
+}
+
+.middle-content .boxes .six{
+    background: forestgreen;
+}
+
+.middle-content .boxes .seven{
+    background: darkorchid;
+}
+
+.middle-content .boxes .eight{
+    background: hotpink;
+}
+
+.middle-content .boxes .nine{
+    background: indigo;
+}
+
+.middle-content .boxes .ten{
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -144,3 +233,61 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* about page css */
+
+*{
+    /* border: 1px solid grey; */
+}
+
+.skyline{
+    background-image: url(/img/jumbo-about.png);
+    width:90%;
+    height: 18vh;
+    margin:2% auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.topText{
+    border-bottom: 1px dashed grey;
+    padding-bottom: 2%;
+}
+
+h2{
+    padding-top: 1%;
+}
+
+.mainContent div{
+    width:46%;
+    margin: 2% auto;
+}
+
+.mainContent{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.mainContent div{
+    border-bottom: 1px dashed grey;
+    margin: 4% 2%;
+}
+
+.mainContent .learnMore{
+    display: block;
+    padding:2%;
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 20%;
+
+}
+
+.cta{
+    margin:0 2%;
+    margin-bottom: 2%;
+
+}
+
+
