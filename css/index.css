@@ -106,7 +106,7 @@ p {
 }
 
 .roadImage{
-    height: 14vh;
+    height: 18vh;
     background-image: url(/img/jumbo.jpg);
     width:90%;
     margin: 2% auto;
@@ -233,3 +233,30 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* about page css */
+
+.skyline{
+    background-image: url(/img/jumbo-about.png);
+    width:90%;
+    height: 18vh;
+    margin:2% auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.mainContent div{
+    width:50%;
+    margin: 2% auto;
+}
+
+.mainContent{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
