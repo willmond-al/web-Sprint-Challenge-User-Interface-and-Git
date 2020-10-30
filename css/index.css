@@ -162,19 +162,19 @@ p {
 /* box colors */
 
 .middle-content .boxes .one{
-    background: #7FFFD4;
+    background: teal;
 }
 
 .middle-content .boxes .two{
-    background: yellow;
+    background: gold;
 }
 
 .middle-content .boxes .three{
-    background: slategray;
+    background: cadetblue;
 }
 
 .middle-content .boxes .four{
-    background: salmon;
+    background: coral;
 }
 
 .middle-content .boxes .five{
@@ -182,15 +182,15 @@ p {
 }
 
 .middle-content .boxes .six{
-    background: #006400;
+    background: forestgreen;
 }
 
 .middle-content .boxes .seven{
-    background: #9400D3;
+    background: darkorchid;
 }
 
 .middle-content .boxes .eight{
-    background: violet;
+    background: hotpink;
 }
 
 .middle-content .boxes .nine{
@@ -198,7 +198,7 @@ p {
 }
 
 .middle-content .boxes .ten{
-    background: lightblue;
+    background: dodgerblue;
 }
 
 .bottom-content {
