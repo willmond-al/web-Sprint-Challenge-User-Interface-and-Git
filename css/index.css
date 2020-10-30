@@ -52,7 +52,7 @@ table {
 
 * {
     box-sizing: border-box;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 html, body {
@@ -82,7 +82,7 @@ p {
     width: 90%;
     height: 7vh;
     margin:0 auto;
-    margin-top: 1%;
+    margin-top: 2%;
 
 }
 
@@ -103,6 +103,14 @@ p {
 .navBar nav a{
     color: black;
     text-decoration: none;
+}
+
+.roadImage{
+    height: 14vh;
+    background-image: url(/img/jumbo.jpg);
+    width:90%;
+    margin: 2% auto;
+
 }
 
 .container {
@@ -143,12 +151,54 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: blue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* box colors */
+
+.middle-content .boxes .one{
+    background: #7FFFD4;
+}
+
+.middle-content .boxes .two{
+    background: yellow;
+}
+
+.middle-content .boxes .three{
+    background: slategray;
+}
+
+.middle-content .boxes .four{
+    background: salmon;
+}
+
+.middle-content .boxes .five{
+    background: crimson;
+}
+
+.middle-content .boxes .six{
+    background: #006400;
+}
+
+.middle-content .boxes .seven{
+    background: #9400D3;
+}
+
+.middle-content .boxes .eight{
+    background: violet;
+}
+
+.middle-content .boxes .nine{
+    background: indigo;
+}
+
+.middle-content .boxes .ten{
+    background: lightblue;
 }
 
 .bottom-content {
